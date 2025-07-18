@@ -8,26 +8,33 @@ body {
     min-height: 100vh;
 }
 
-header {
+.top {
     display: flex;
     margin: auto;
+    width: 1800px;
     justify-content: space-between;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: lightblue;
-    padding-right: 400px;
-    padding-left: 400px;
+    background-color: orange;
 }
 
+header {
+    display: flex;
+    background-color: lightblue;
+    height: 100px;
+    align-items: center;
+}
+
+#intro-container {
+    display: flex;
+    background-color: blue;
+    height: 300px;
+    align-items: center;
+}
 
 #download-top-header {
-    padding-right: 500px;
-    padding-left:  500px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    width: 1400px;
+    margin: auto;
 
     /* to be removed */
-    background-color: blue;
 }
 
 #download-text {
@@ -36,17 +43,40 @@ header {
 }
 
 
-.info, #big-text {
+.container, #big-text {
     display: flex;
-    padding-right: 400px;
-    padding-left: 400px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    justify-content: space-around;
+    width: 1800px;
+    margin: 0 auto;
 }
 
-/* To be removed */
-#reverse-info {
+.background-container-main {
+    display: flex;
+    align-items: center;
+    height: 200px;
+}
+
+.background-container-big {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    background-color: gray;
+}
+
+.background-container-bottom {
+    display: flex;
+    align-items: center;
+    background-color: darkslategray;
+    height: 300px;
+}
+
+.background-container-footer {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: darkslategray;
+}
+
+#reverse-container {
     background-color: gray;
 }
 
@@ -57,4 +87,5 @@ header {
 
 #bottom {
     justify-content: space-between;
+    background-color: aqua;
 }
