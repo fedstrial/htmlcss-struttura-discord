@@ -7,3 +7,54 @@
 body {
     min-height: 100vh;
 }
+
+header {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: lightblue;
+    padding-right: 400px;
+    padding-left: 400px;
+}
+
+
+#download-top-header {
+    padding-right: 500px;
+    padding-left:  500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    /* to be removed */
+    background-color: blue;
+}
+
+#download-text {
+    /* to be removed */
+    background-color: pink;
+}
+
+
+.info, #big-text {
+    display: flex;
+    padding-right: 400px;
+    padding-left: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-around;
+}
+
+/* To be removed */
+#reverse-info {
+    background-color: gray;
+}
+
+/* to be removed */
+#big-text>p {
+    background-color: green;
+}
+
+#bottom {
+    justify-content: space-between;
+}
