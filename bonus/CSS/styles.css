@@ -1,0 +1,133 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+	min-height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #002332;
+    height: 80px;
+}
+
+#header-container {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    width: 1800px;
+}
+
+#logo {
+    height: 50px;
+    width: 220px;
+}
+
+#header-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none; /* no underline */
+}
+
+#login-btn {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    border: 0
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#intro-container {
+    background-image: url('../assets/background-template-png.png');
+    background-size: cover;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 1200px;
+    text-align: center;
+    color: white;
+}
+
+#title { 
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+
+#sub-title {
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+#buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 200px;
+}
+
+#download, #open-in-browser {
+    padding: 15px;
+    border: 0;
+    border-radius: 20px
+}
+
+#download {
+    color: black;
+    background-color: white;
+}
+
+#open-in-browser {
+    background-color: #454545;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1800px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.image-container { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.svg {
+    height: 500px;
+    width: 500px;
+}
+
+.section-title {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
