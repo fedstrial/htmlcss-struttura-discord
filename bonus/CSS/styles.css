@@ -20,11 +20,11 @@ header {
     display: flex;
     margin: auto;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 1800px;
 }
 
-#logo {
+.logo {
     height: 50px;
     width: 220px;
 }
@@ -86,10 +86,10 @@ button:hover {
     padding-bottom: 200px;
 }
 
-#download, #open-in-browser {
+button {
     padding: 15px;
     border: 0;
-    border-radius: 20px
+    border-radius: 30px
 }
 
 #download {
@@ -115,12 +115,11 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
 }
 
-.svg {
+.svg-medium {
     height: 500px;
-    width: 500px;
+    width: 1000px
 }
 
 .section-title {
@@ -130,4 +129,76 @@ button:hover {
 
 .reverse {
     flex-direction: row-reverse;
+}
+
+.big-content {
+    width: 1800px;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#big-svg {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.download-container {
+    width: 1800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#download-bottom {
+    background-color: lightskyblue;
+    margin-top: 30px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: slategray;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+#container-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 1800px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.link-header {
+    color: lightblue;
+    padding-bottom: 10px
+}
+
+#lang-header {
+    font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#bottom-footer-container {
+    display: flex;
+    width: 1800px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+#register {
+    color: white;
+    background-color: lightskyblue;
 }
