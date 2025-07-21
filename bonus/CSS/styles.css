@@ -21,7 +21,7 @@ header {
     margin: auto;
     align-items: center;
     justify-content: space-between;
-    width: 1800px;
+    width: 80%
 }
 
 .logo {
@@ -202,3 +202,5 @@ li {
     color: white;
     background-color: lightskyblue;
 }
+
+/* ADD % WIDTH TO BOTTOM LINK CONTAINERS */
